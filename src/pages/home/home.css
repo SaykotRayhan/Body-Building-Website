@@ -44,3 +44,86 @@
 .main__header-right:hover .main__header-circle {
   filter: blur(15px);
 }
+
+/* ================== Programs ================= */
+.programs {
+  margin-top: 4rem;
+}
+.programs__wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3rem;
+  margin-top: 4rem;
+}
+.programs__program a {
+  margin-top: 2.5rem;
+  /* mt will not work if we do not make it flex */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.programs__program:hover a {
+  background: var(--color-secondary);
+  color: var(--color-gray-600);
+}
+
+/* ================== Values ================= */
+.values__container {
+  display: grid;
+  grid-template-columns: 38% 50%;
+  gap: 12%;
+}
+.values__image {
+  filter: saturate(0.25);
+}
+.values__image:hover {
+  filter: saturate(1);
+}
+.values__right > p {
+  margin: 1.5rem 0rem 3.5rem 0rem;
+}
+.values__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3.4rem 2.4rem;
+}
+.card.values__value {
+  padding-top: 3.5rem;
+  text-align: left;
+  position: relative;
+}
+.card.values__value span {
+  position: absolute;
+  top: -1.5rem;
+}
+
+/* ================== FAQs ================= */
+.faqs__wrapper {
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem 5rem;
+  align-items: flex-start;
+  /* by default it is stretched.we should change to flex start */
+  /* so that when answer is hidden the div becomes small */
+}
+.faq {
+  background: var(--color-gray-500);
+  padding: 2rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+.faq div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.faq__icon {
+  background: transparent;
+  color: var(--color-gray-100);
+  font-size: 1.5rem;
+}
+.faq p {
+  margin-top: 1.5rem;
+}
