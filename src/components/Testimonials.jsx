@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import SectionHeader from './SectionHeader'
 import { ImQuotesLeft } from 'react-icons/im'
 import Card from '../UI/Card'
@@ -13,7 +13,7 @@ const Testimonials = () => {
   const { name, quote, job, avatar } = testimonials[index]
 
   const prevTestimonialHandler = () => {
-    if (index < 0) {
+    if (index <= 0) {
       setIndex(testimonials.length - 1)
     }
     setIndex(prev => prev - 1)
@@ -24,6 +24,14 @@ const Testimonials = () => {
     }
     setIndex(prev => prev + 1)
   }
+  // useEffect(() => {
+  //   setInterval(() => {
+  //     if (index >= testimonials.length - 1) {
+  //       setIndex(0)
+  //     }
+  //     setIndex(prev => prev + 1)
+  //   }, 3000)
+  // }, [index])
 
   return (
     <section className='testimonials'>
