@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Body-Building-Website/static/css/main.cc765c69.css",
-    "main.js": "/Body-Building-Website/static/js/main.ce31b8d6.js",
+    "main.js": "/Body-Building-Website/static/js/main.f127d93b.js",
     "static/media/header_bg_3.jpg": "/Body-Building-Website/static/media/header_bg_3.20aac8db63049715cbd1.jpg",
     "static/media/main_header.png": "/Body-Building-Website/static/media/main_header.cfdd71eb8ee4127d40dd.png",
     "static/media/header_bg_5.jpg": "/Body-Building-Website/static/media/header_bg_5.1779114ab5e3f0403a12.jpg",
@@ -36,10 +36,10 @@
     "static/media/avatar5.jpg": "/Body-Building-Website/static/media/avatar5.d25e9a28e32aa5201afa.jpg",
     "index.html": "/Body-Building-Website/index.html",
     "main.cc765c69.css.map": "/Body-Building-Website/static/css/main.cc765c69.css.map",
-    "main.ce31b8d6.js.map": "/Body-Building-Website/static/js/main.ce31b8d6.js.map"
+    "main.f127d93b.js.map": "/Body-Building-Website/static/js/main.f127d93b.js.map"
   },
   "entrypoints": [
     "static/css/main.cc765c69.css",
-    "static/js/main.ce31b8d6.js"
+    "static/js/main.f127d93b.js"
   ]
 }
