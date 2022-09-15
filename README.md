@@ -1,7 +1,19 @@
-## Available Scripts
+# Bodybuilding Website
 
-In the project directory, you can run:
+## Project setup
 
-### `npm install`
+```
+npm install
+```
 
-### `npm start`
+### run project
+
+```
+npm start
+```
+
+## Live link
+
+```
+https://saykotrayhan.github.io/Body-Building-Website/
+```
